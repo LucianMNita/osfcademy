@@ -1,0 +1,473 @@
+@import "css/_socialicon.css";
+@import "css/_mainicon.css";
+
+@font-face {
+    font-family:'aller';
+    src: url('../font/Aller_Lt.ttf');
+}
+
+
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{
+    text-decoration: none;
+}
+
+
+.clear{
+  clear:both;
+}
+
+.wrap{
+  margin: 0 auto;
+  width: 100%;
+}
+.header{
+  padding: 0;
+}
+.top{
+  background-color: #242424;
+}
+
+/*-------------------------------------------------------*/
+
+/*-----------------------------
+        Start title
+-----------------------------*/
+
+.title a{
+  color: #57c5a0;
+  float:left;
+  height: 20px;
+  margin: 10px 100px;
+  font-size: 24px;
+  font-family: 'Pure Thin Thin', sans-serif;
+
+}
+/*-----------------------------
+        End title
+-----------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------
+          Start search
+----------------------------*/
+.search{
+position: relative;
+float:right;
+width: 28.33333%;
+border-right: 1px solid rgb(60, 60, 60);
+padding: 6px 10px;
+}
+/*---*/
+.search form{
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.search form:active,.search form:hover{
+background: #ffffff;
+-webkit-transition-property: width;
+-moz-transition-property: width;
+-ms-transition-property: width;
+transition-property: width;
+-webkit-transition-duration: .5s;
+-moz-transition-duration: .5s;
+-ms-transition-duration: .5s;
+transition-duration: .5s;
+}
+.search input[type="text"]{
+font-family: 'aller', sans-serif;
+padding: 8px 20px;
+outline: none;
+border: none;
+width: 76%;
+background: none;
+font-size: 1em;
+color: #333333;
+}
+.search:hover input[type="submit"]{
+background: url(../images/search.png) no-repeat 0px 4px;
+}
+.search input[type="submit"]{
+background: url(../images/search.png) no-repeat 0px 4px;
+border: none;
+width: 9px;
+height: 25px;
+cursor: pointer;
+}
+.search input[type="submit"]:hover{
+background: url(../images/search.png) no-repeat 0px 4px;
+}
+
+/*----------------------------
+          end search
+----------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------
+          Start Login/Reg
+----------------------------*/
+.logreg{
+  border-right: 1px solid rgb(60, 60, 60);
+	padding: 12px 16px;
+	float:right;
+
+}
+.logreg ul li{
+	display: inline-block;
+}
+.logreg li a{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8125em;
+	display: block;
+	padding: 5px 8px;
+	color: #777777;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.5px;
+}
+.logreg  span.log{
+	font-size: 0.8125em;
+	color: #777777;
+	text-transform: lowercase;
+	-webkit-text-stroke: 0.5px;
+}
+
+/*----------------------------
+          end Login/Reg
+----------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*-----------------------
+        Start menu
+-----------------------*/
+.header-menu{
+  padding: 0 4%;
+}
+.menu{
+  padding: 0px 4%;
+
+}
+.menu ul li{
+	float: left;
+	border-left: 1px solid rgb(226, 226, 226);
+  list-style: none;
+}
+.menu ul li:nth-child(6){
+	border-right: 1px solid rgb(226, 226, 226);
+}
+.menu ul li a{
+  display: block;
+  color: #2d2d2d;
+  padding: 26px 30px;
+  font-size: 1.1em;
+  font-family: 'aller';
+  line-height: 1.8em;
+  text-transform: capitalize;
+	-webkit-text-stroke: 0.2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.menu ul li.active a{
+	color:#57C5A0;
+}
+.menu ul li a:hover{
+	color:#57C5A0;
+}
+/*------------------------------------------
+          End menu
+------------------------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------------------
+           start  carousel
+----------------------------------------*/
+.slide{
+  background: #2e2e2e;
+	padding-bottom: 8%;
+}
+/*----------------------------------------
+          end  carousel
+----------------------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------------------
+           start  frst line shose
+----------------------------------------*/
+.frt_line{
+  padding: 4% 4% 2%;
+}
+
+.img_line{
+  float: left;
+width: 30.99999%;
+margin-left: 3.3333%;
+text-align:center;
+}
+.img_line:first-child{
+	margin-left: 0;
+}
+.img_line img{
+	width:100%;
+}
+.img_line span{
+	position: relative;
+	top: -120px;
+}
+.img_line span.tag{
+	padding: 15px 30px;
+	background: rgba(36, 36, 36, 0.85);
+	color: #ffffff;
+	font-size: 1.5em;
+  font-family: 'aller';
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.img_line span.tag:hover{
+	background: rgba(0, 0, 0, 0.61);
+}
+/*----------------------------------------
+          end  frst line shose
+----------------------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------------------
+          start  main content
+----------------------------------------*/
+.content{
+  background: #EBE7DF;
+}
+
+.main{
+	padding:4%;
+}
+
+.st-ln-main{
+	margin:3% 0;
+}
+.st-ln-main:first-child{
+	margin-top: 0;
+}
+.st-ln-main h2{
+	float: left;
+	text-transform: capitalize;
+	color: #242424;
+	font-size: 1.5em;
+  font-family: 'aller';
+	text-shadow: 0 1px 0 #ffffff;
+	line-height: 1.8em;
+}
+.st-ln-main a{
+	font-size: 1em;
+  font-family: 'aller';
+	float: right;
+	text-transform: capitalize;
+	padding: 8px 20px;
+	color: #BCB4A7;
+	border: 1px solid #BCB4A7;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.st-ln-main a:hover{
+	background:#BCB4A7;
+	color: #fff;
+}
+/*----------------------------------------
+          start  3 img line
+----------------------------------------*/
+.grids_of_3{
+text-align:center;
+display: block;
+}
+.grid1_of_3{
+float:left;
+width:30.3333%;
+margin-left:4.3333%;
+background: #ffffff;
+position: relative;
+}
+.grid1_of_3:first-child{
+margin-left: 0;
+}
+.grid1_of_3 a{
+display: block;
+}
+.grid1_of_3 a:hover h3{
+color: #57C5A0;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.grid1_of_3 img{
+padding: 8% 0;
+}
+.grid1_of_3 h3{
+border-top: 1px solid #EBEBEB;
+padding: 15px;
+font-size: 1.2em;
+font-family: 'aller';
+color: #000000;
+-webkit-text-stroke: 0.2px;
+text-shadow: 0 1px 0 #ffffff;
+text-transform: capitalize;
+}
+
+.price{
+	background: #57C5A0;
+	color: #ffffff;
+  font-family: 'aller';
+	font-size: 0.8725em;
+	padding: 25px 12px;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+}
+.price1{
+	font-size: 0.8725em;
+  font-family: 'aller';
+	color: #ffffff;
+	padding: 25px 15px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	text-transform:uppercase;
+}
+.price1.bg{
+	background: #242424;
+}
+.price1.bg1{
+	background: #F27E4B;
+	width: 60px;
+}
+/*----------------------------------------
+          end  3 img line
+----------------------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------------------
+          Start  bottom products
+----------------------------------------*/
+.grids_of_2{
+	display: block;
+	margin: 4% 0;
+}
+.grid1_of_2{
+	float:left;
+	width: 45.77777%;
+	margin-left:4.3333%;
+}
+.grid1_of_2:first-child{
+	margin-left: 0;
+}
+.grid1_of_2.bg{
+	background: #DFDBD4;
+	padding: 2%;
+}
+.span1_of_2{
+	float: left;
+	width: 38.77777%;
+	margin-left: 6.3333%;
+	background: #DFDBD4;
+	padding: 4%;
+}
+.span1_of_2:first-child{
+	margin-left: 0;
+}
+.grid1_of_2 h2{
+	font-size: 1.2em;
+  font-family: 'aller';
+	color: #141414;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.4px;
+	text-shadow: 0 1px 0 #ffffff;
+	margin-bottom: 4%;
+}
+.grid1_of_2 p{
+	font-size: 0.8725em;
+  font-family: 'aller';
+	line-height: 1.5em;
+	color: #141414;
+	-webkit-text-stroke: 0.4px;
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+.grid_date{
+	margin-top: 4%;
+}
+.grid_date:first-child{
+	margin-top: 0;
+}
+.date1{
+	float:left;
+	width:12.3333%;
+}
+.date_text{
+	float: left;
+	width:84.3333%;
+	margin-left: 3.3333%;
+}
+.date1 h4{
+	font-size: 0.8925em;
+	margin-top: 4px;
+	background:#57C5A0;
+	padding: 15px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.date_text  h4 a{
+	display:block;
+	font-size: 1em;
+  font-family: 'aller';
+	color: #141414;
+	-webkit-text-stroke: 0.4px;
+	text-shadow: 0 1px 0 #ffffff;
+	margin-bottom: 2%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.date_text  h4 a:hover{
+	color: #57C5A0;
+}
+/* start footer_top */
+.footer_top{
+	background: #242424;
+}
+.footer{
+	padding: 4%;
+}
+
+
+/*----------------------------------------
+          Start  bottom products
+----------------------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*----------------------------------------
+          end  main content
+----------------------------------------*/
